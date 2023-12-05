@@ -1,0 +1,76 @@
+.menu{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: white;
+  color: rgb(2, 126, 197);
+  border: 2.5px solid;
+  padding: 2.5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu2{
+  cursor: pointer;
+  position: relative;
+  width: 80px;
+  text-align: center;
+  border: 2px solid;
+  padding: 2.5px;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.menu2:hover{
+  background-color: rgb(2, 126, 197);
+  color: white;
+}
+
+.bhaskbox{
+  text-align: center;
+  border: 2px solid;
+  display: block;
+  justify-content: center;
+  position: relative;
+  border-radius: 30px;
+  width: 50%;
+  height: 50%;
+}
+
+.letter{
+  display: inline-block;
+  padding-inline: 93px;
+}
+
+.caixa{
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid #4e4e4e;
+  box-sizing: border-box;
+  width: 80px;
+  height: 20px;
+}
+
+.calcular{
+  background-color: rgb(115, 30, 190);
+  color: white;
+  cursor: pointer;
+  width: 80px;
+  padding: 2.5px;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.title{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: white;
+  color: rgb(115, 30, 190);
+  text-align: center;
+  margin-top: 5%;
+}
+.calcular-button {
+  cursor: pointer;
+  transition: background-color 0.1s;
+ }
+ .calcular-button:hover{
+  background-color: #3B82F6;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <div class="menu">
+      <h2>ACITAMETAM</h2>
+      <div>
+         <p class="menu2">LOGIN</p>
+         <p class="menu2">LAR</p>
+         <p class="menu2">CONTATO</p>
+      </div>
+  </div>
+
+  <i><h1 class="title">Calculadora de 2º Grau</h1></i>
+  <br><br>
+
+  <center>
+      <div class="bhaskbox">
+          <h3>Calcular a fórmula de Bhaskara</h3>
+          <p>ax² + bx + c = 0</p>
+
+          <div class="valores">
+              <p>Insira os valores de a, b e c:</p>
+          </div>
+
+          <div class="resp">
+              <p class="letter">A</p>
+              <p class="letter">B</p>
+              <p class="letter">C</p>
+          </div>
+
+          <div>
+              <label for="respA"></label>
+              <input type="number" id="a">
+              <label for="respB"> x² </label>
+              <input type="number" id="b">
+              <label for="respC"> x + </label>
+              <input type="number" id="c">
+              <p>Para inserir um número negativo, digite - na frente do número desejado.</p>
+          </div>
+
+          <h3>Máximo de casas decimais</h3>
+          <div class="caixa">
+              <input type="number" id="casasDecimais" placeholder="Número de casas decimais">
+          </div>
+          <br><br>
+          <div class="calcular">Calcular</div>
+          <div class="limpar" onclick="limparCampos()">Limpar</div>
+
+      </div>
+  </center>
+
+  <strong><i><h1>CÁLCULO</h1></i></strong>
+  
+  <div class="result">Resultado:</div>
+  <div class="x1">X1: </div>
+  <div class="x2">X2: </div>
+  <div class="delta">Delta: </div>
+
+  <script src="js/javacript.js"></script>
+</body>
+
+</html>
+
